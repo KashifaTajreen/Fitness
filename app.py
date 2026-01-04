@@ -16,7 +16,7 @@ st.set_page_config(
     layout="centered",
 )
 
-PRIMARY_BG = 
+PRIMARY_BG = """
 <style>
 /* Vibrant gradient background */
 .stApp {
@@ -62,7 +62,7 @@ h1, h2, h3 {
     color: #2A3A4A;
 }
 </style>
-
+"""
 st.markdown(PRIMARY_BG, unsafe_allow_html=True)
 
 # -----------------------------
